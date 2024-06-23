@@ -1,0 +1,14 @@
+{
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"overrides": [
+		{
+			"files": ["src/lib/examples/**/*.svelte"],
+			"options": {
+				"printWidth": 50,
+				"htmlWhitespaceSensitivity": "ignore"
+			}
+		}
+	]
+}
