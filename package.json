@@ -4,6 +4,23 @@
 	"files": [
 		"dist/lib"
 	],
+	"repository": {
+		"url": "https://github.com/Bellisario/svelte-hash"
+	},
+	"license": "GPL-3.0-only",
+	"description": "Easy URL hash management for Svelte.",
+	"keywords": [
+		"svelte",
+		"hash",
+		"fragment",
+		"router",
+		"spa"
+	],
+	"bugs": {
+		"url": "https://github.com/Bellisario/hostname-patcher/issues"
+	},
+	"homepage": "https://github.com/Bellisario/hostname-patcher#readme",
+	"author": "Bellisario",
 	"exports": {
 		".": {
 			"default": "./dist/lib/index.js",
