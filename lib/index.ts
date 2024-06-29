@@ -84,7 +84,7 @@ export function createHashStore<T = Hash>(
 }
 
 if (import.meta.hot) {
-    import.meta.hot.on('vite:beforeUpdate', () => {
-        isStoreInitialized = false;
-    });
+	import.meta.hot.on('vite:beforeUpdate', () => {
+		isStoreInitialized = false
+	})
 }
