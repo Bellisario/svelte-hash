@@ -82,3 +82,9 @@ export function createHashStore<T = Hash>(
 		return hashValues
 	}
 }
+
+if (import.meta.hot) {
+	import.meta.hot.on('vite:beforeUpdate', () => {
+		isStoreInitialized = false
+	})
+}
