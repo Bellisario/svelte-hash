@@ -17,9 +17,9 @@
 		"spa"
 	],
 	"bugs": {
-		"url": "https://github.com/Bellisario/hostname-patcher/issues"
+		"url": "https://github.com/Bellisario/svelte-hash/issues"
 	},
-	"homepage": "https://github.com/Bellisario/hostname-patcher#readme",
+	"homepage": "https://github.com/Bellisario/svelte-hash#readme",
 	"author": "Bellisario",
 	"exports": {
 		".": {
