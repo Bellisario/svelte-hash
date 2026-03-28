@@ -26,7 +26,7 @@ pnpm add -D svelte-hash
 ## Usage
 
 > [!TIP]
-> It's really suggested to have a look to [these interactive examples](https://svelte-hash.deno.dev) to test the library and understand the functionality (there you can see hash/fragment updates in the URL).
+> It's really suggested to have a look to [these interactive examples](https://svelte-hash.giorgiobellisario.deno.net/) to test the library and understand the functionality (there you can see hash/fragment updates in the URL).
 
 First of all, create and export a new `hash` store instance:
 
