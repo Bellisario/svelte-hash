@@ -45,7 +45,7 @@ export const hash = createHashStore<Hash>()
 > [!NOTE]
 >
 > - Explicitly defining the type of the hash is optional, but extremely suggested as it provides type checking and autocompletion
-> - Currently only string values are supported: this might change in the future with `v2`
+> - Currently only string values are supported: this might change in a future major release
 > - Only one hash store can be initialized in the same project: multiple hash stores initialization will throw an error
 
 Then, you can use the `hash` store in your components:
